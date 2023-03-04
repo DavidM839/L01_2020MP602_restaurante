@@ -48,7 +48,7 @@ namespace L01_2020MP602.Controllers
             }
 
             [HttpGet]
-            [Route("find")]
+            [Route("encontrar")]
             public IActionResult buscar(int filtro)
             { //id del cliente
                 List<pedidos> lista = (from e in _restauranteContext.pedidos
@@ -64,7 +64,7 @@ namespace L01_2020MP602.Controllers
 
             }
         [HttpGet]
-        [Route("find")]
+        [Route("bymotorista")]
         public IActionResult buscarmotorista(int filtro)
         { //id del motorista
             List<pedidos> lista = (from e in _restauranteContext.pedidos
