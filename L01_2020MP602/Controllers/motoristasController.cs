@@ -92,7 +92,7 @@ namespace L01_2020MP602.Controllers
             if (motoexiste == null)
                 return NotFound();
 
-            motoexiste.motoristaId = motorismodificar.motoristaId;
+            
             motoexiste.nombreMotorista = motorismodificar.nombreMotorista;
 
 

@@ -109,7 +109,7 @@ namespace L01_2020MP602.Controllers
                 if (pedidoexiste == null)
                     return NotFound();
 
-            pedidoexiste.motoristaId = pedidomodificar.motoristaId;
+           
             pedidoexiste.clienteId = pedidomodificar.clienteId;
             pedidoexiste.platoId = pedidomodificar.platoId;
             pedidoexiste.cantidad = pedidomodificar.cantidad;
